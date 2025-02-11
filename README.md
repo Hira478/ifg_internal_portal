@@ -14,6 +14,18 @@ pnpm dev
 bun dev
 ```
 
+Dependecies
+- npx create-next-app@latest .
+- npm install @radix-ui/react-select @radix-ui/react-dialog @radix-ui/react-popover date-fns lucide-react recharts xlsx
+- npm i -D @shadcn/ui
+- npx shadcn init
+- npx shadcn add button card input label select textarea tabs table badge dialog popover
+
+folder komponen kustom
+- mkdir -p components
+
+salin folder ke root: app, component, public, etc.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
